@@ -13,6 +13,12 @@
 		267E276526C4F8970044A03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267E276326C4F8970044A03B /* Main.storyboard */; };
 		267E277126C4F8980044A03B /* MyMacDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E277026C4F8980044A03B /* MyMacDemoTests.swift */; };
 		267E277C26C4F8980044A03B /* MyMacDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E277B26C4F8980044A03B /* MyMacDemoUITests.swift */; };
+		267E278A26C64FB70044A03B /* OneWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E278926C64FB70044A03B /* OneWindowController.swift */; };
+		267E278C26C65D5F0044A03B /* SQWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E278B26C65D5F0044A03B /* SQWindow.swift */; };
+		267E278E26C65DDB0044A03B /* SQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E278D26C65DDB0044A03B /* SQView.swift */; };
+		267E279026C65DF70044A03B /* SQButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E278F26C65DF70044A03B /* SQButton.swift */; };
+		267E279326C6644E0044A03B /* eventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E279226C6644E0044A03B /* eventMonitor.swift */; };
+		267E279526C666280044A03B /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267E279426C666280044A03B /* StatusItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,12 @@
 		267E277726C4F8980044A03B /* MyMacDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMacDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267E277B26C4F8980044A03B /* MyMacDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMacDemoUITests.swift; sourceTree = "<group>"; };
 		267E277D26C4F8980044A03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267E278926C64FB70044A03B /* OneWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneWindowController.swift; sourceTree = "<group>"; };
+		267E278B26C65D5F0044A03B /* SQWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQWindow.swift; sourceTree = "<group>"; };
+		267E278D26C65DDB0044A03B /* SQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQView.swift; sourceTree = "<group>"; };
+		267E278F26C65DF70044A03B /* SQButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQButton.swift; sourceTree = "<group>"; };
+		267E279226C6644E0044A03B /* eventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventMonitor.swift; sourceTree = "<group>"; };
+		267E279426C666280044A03B /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +108,13 @@
 		267E275C26C4F8940044A03B /* MyMacDemo */ = {
 			isa = PBXGroup;
 			children = (
+				267E279126C6641E0044A03B /* 自学 */,
 				267E275D26C4F8940044A03B /* AppDelegate.swift */,
 				267E275F26C4F8940044A03B /* ViewController.swift */,
+				267E278926C64FB70044A03B /* OneWindowController.swift */,
+				267E278B26C65D5F0044A03B /* SQWindow.swift */,
+				267E278D26C65DDB0044A03B /* SQView.swift */,
+				267E278F26C65DF70044A03B /* SQButton.swift */,
 				267E276126C4F8970044A03B /* Assets.xcassets */,
 				267E276326C4F8970044A03B /* Main.storyboard */,
 				267E276626C4F8970044A03B /* Info.plist */,
@@ -122,6 +139,15 @@
 				267E277D26C4F8980044A03B /* Info.plist */,
 			);
 			path = MyMacDemoUITests;
+			sourceTree = "<group>";
+		};
+		267E279126C6641E0044A03B /* 自学 */ = {
+			isa = PBXGroup;
+			children = (
+				267E279226C6644E0044A03B /* eventMonitor.swift */,
+				267E279426C666280044A03B /* StatusItemController.swift */,
+			);
+			path = "自学";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				267E276026C4F8940044A03B /* ViewController.swift in Sources */,
+				267E279026C65DF70044A03B /* SQButton.swift in Sources */,
+				267E278C26C65D5F0044A03B /* SQWindow.swift in Sources */,
+				267E278A26C64FB70044A03B /* OneWindowController.swift in Sources */,
+				267E279526C666280044A03B /* StatusItemController.swift in Sources */,
 				267E275E26C4F8940044A03B /* AppDelegate.swift in Sources */,
+				267E278E26C65DDB0044A03B /* SQView.swift in Sources */,
+				267E279326C6644E0044A03B /* eventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

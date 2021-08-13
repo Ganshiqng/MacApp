@@ -18,13 +18,24 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         oneLabel.maximumNumberOfLines = 0
         // Do any additional setup after loading the view.
+        
     }
+    
+    
+
     
     
     //交互区域===
     
     @IBAction func oneButton(_ sender: Any) {
         oneLabel.stringValue = "www.jd.com"
+        
+        
+    }
+    @IBAction func tiaozhuan(_ sender: Any) {
+        
+       
+        
     }
     //交互区域结束===
 
